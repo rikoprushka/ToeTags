@@ -1,0 +1,5 @@
+name=Toe Tags (Sorted)
+id=ToeTagsSorted
+description=New Toe Tags will have hours survived set as the item name
+poster=poster.png
+require=ToeTags
