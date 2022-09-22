@@ -35,7 +35,7 @@ local function CreateToeTagOnDeadPlayer(player)
     -- Populate the item Name
     local itemName = "IGUI_ToeTag_ItemName";
     if getActivatedMods():contains("ToeTagsSorted") then
-        itemName = "IGUI_ToeTag_ItemNameAdvanced";
+        itemName = "IGUI_ToeTag_ItemNameSorted";
     end
     itemName = getText(itemName, 
                        player:getFullName(),
