@@ -1,0 +1,17 @@
+IGUI_EN = {
+    -- Toe Tag Translations
+    IGUI_ToeTag_ItemName = "Toe Tag: %1",
+    IGUI_ToeTag_ItemNameSorted = "[%2] %1",
+    IGUI_ToeTag_Died = "Died: %1",
+    IGUI_ToeTag_Infected = "Infected with the Knox virus",
+    IGUI_ToeTag_NotInfected = "Not infected",
+
+    -- NOTE: Some translations come automatically from the Base Game
+    -- Username: -> IGUI_PlayerStats_Username           (Player, not character's username)
+    -- Profession: -> IGUI_PlayerStats_Profession       (Character Profession title)
+    -- Unknown -> UI_FriendState_Unknown                (If no profession then profession = Unknown)
+    -- Fav. Weapon: -> IGUI_char_Favourite_Weapon       (Character Favorite Weapon title)
+    -- Survived: -> IGUI_char_Survived_For              (Time character surived for title)
+    -- Kills: -> IGUI_char_Zombies_Killed               (Zombies killed title)
+    -- Pacifist -> UI_trait_Pacifist                    (EasterEgg: If No FavWeapon then FavWeapon = Pacifist)
+}
