@@ -60,7 +60,7 @@ description=  [/tr]
 description=[/table]
 description=
 description=[h1]Optional: Mod Options[/h1]
-All the details recorded on your Toe Tag can be toggled on or off to suit your needs if you have "[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993]ModOptions[/url]" installed. When detected you will see a new "[i]Toe Tag Options[/i]" category with a series of toggles so you can adjust the toe tag information to suit your own needs and preferences.  Without it the mod defaults to recording everything.
+description=All the details recorded on your Toe Tag can be toggled on or off to suit your needs if you have "[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993]ModOptions[/url]" installed. When detected you will see a new "[i]Toe Tag Options[/i]" category with a series of toggles so you can adjust the toe tag information to suit your own needs and preferences.  Without it the mod defaults to recording everything.
 description=
 description=[h1]Known Issue with Dates[/h1]
 description=For some reason or another the watches in game always show the date is one day ahead of what the game engine says.  So for example, when you die, we ask the game engine what the date is.  It replies back with "[i]July 09[/i]" for example.  As far as the simulation is concerned it is Fri Jul 09 at 11:14:19 EDT in 1993 BUT your watch in the user interface says "[i]July 10[/i]".
