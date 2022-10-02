@@ -6,6 +6,26 @@ IGUI_EN = {
     IGUI_ToeTag_Infected = "Infected with the Knox virus",
     IGUI_ToeTag_NotInfected = "Not infected",
 
+    -- Toe Tag Configuration options (if ModOptions installed)
+    IGUI_ToeTag_Options_NameShort = "Toe Tags",
+    IGUI_ToeTag_Options_NameLong = "Toe Tag Options",
+    IGUI_ToeTag_Options_AdvancedTitle = "Show Hours survived on Toe Tag",
+    IGUI_ToeTag_Options_AdvancedTitle_Tooltip = "Adds [hhhhh.mm] to item titles for sorting.<br>Example: [00420.69] Joe Smith",
+    IGUI_ToeTag_Options_RecordAccount = "Record account username",
+    IGUI_ToeTag_Options_RecordAccount_Tooltip = "The multiplayer account (not character name)",
+    IGUI_ToeTag_Options_RecordProfession = "Record profession",
+    IGUI_ToeTag_Options_RecordProfession_Tooltip = "Ex: Fitness Instructor",
+    IGUI_ToeTag_Options_RecordDeathDate = "Record death date",
+    IGUI_ToeTag_Options_RecordDeathDate_Tooltip = "Ex: Sun August 15 10:34 EDT 1993",
+    IGUI_ToeTag_Options_RecordSurvived = "Record survival time",
+    IGUI_ToeTag_Options_RecordSurvived_Tooltip = "Ex: 8 months, 3 days, 11 hours",
+    IGUI_ToeTag_Options_RecordFavWeapon = "Record favorite weapon",
+    IGUI_ToeTag_Options_RecordFavWeapon_Tooltip = "Weapon you got the most kills with",
+    IGUI_ToeTag_Options_RecordKillCount = "Record zombie kill count",
+    IGUI_ToeTag_Options_RecordKillCount_Tooltip = "Total number of zombies you killed",
+    IGUI_ToeTag_Options_RecordInfection = "Record infection status",
+    IGUI_ToeTag_Options_RecordInfection_Tooltip = "Note if player was infected with Knox virus",
+
     -- NOTE: Some translations come automatically from the Base Game
     -- Username: -> IGUI_PlayerStats_Username           (Player, not character's username)
     -- Profession: -> IGUI_PlayerStats_Profession       (Character Profession title)
@@ -14,4 +34,5 @@ IGUI_EN = {
     -- Survived: -> IGUI_char_Survived_For              (Time character surived for title)
     -- Kills: -> IGUI_char_Zombies_Killed               (Zombies killed title)
     -- Pacifist -> UI_trait_Pacifist                    (EasterEgg: If No FavWeapon then FavWeapon = Pacifist)
+    -- If Blank Tag -> IGUI_health_Deceased             (If no tag options recorded, just write deceased)
 }

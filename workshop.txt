@@ -59,10 +59,9 @@ description=    [td]Not infected[/td]
 description=  [/tr]
 description=[/table]
 description=
-description=[h1]Optional Sub-Mod[/h1]
-description=There is a sub-mod included called "[b]ToeTagsSorted[/b]".  If you enable this mod the name of the Toe Tags will change slightly.  By Default a toe tag's name is "[i]Toe Tag: John Smith[/i]".  However if you enable the Sorted variation it'll change the Toe Tag name to "[i][00420.69] John Smith[/i]" where the numbers are the hours the player survived.
-description=
-description=This makes it easier to determine which of your characters lived the longest when sorting through a collection of toe tags.  It must be enabled at the time of death to have the toe tag generated with the hour title, it will not retroactively update old tags with the new labels.
+description=[h1]Optional: Mod Options[/h1]
+description=All the details recorded on your Toe Tag can be toggled on or off to suit your needs if you have "[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993]ModOptions[/url]" installed.
+description=When installed you will see a new "Toe Tag Options" category with a series of toggles so you can adjust the toe tag information to suit your own needs and preferences.  Without it the mod defaults to recording everything.
 description=
 description=[h1]Known Issue with Dates[/h1]
 description=For some reason or another the watches in game always show the date is one day ahead of what the game engine says.  So for example, when you die, we ask the game engine what the date is.  It replies back with "[i]July 09[/i]" for example.  As far as the simulation is concerned it is Fri Jul 09 at 11:14:19 EDT in 1993 BUT your watch in the user interface says "[i]July 10[/i]".

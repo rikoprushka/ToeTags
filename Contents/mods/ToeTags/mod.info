@@ -1,4 +1,4 @@
 name=Toe Tags
 id=ToeTags
-description=Adds detailed Toe Tags to player inventories on death
+description=Adds detailed Toe Tags to player inventories on death. Optionally use ModOptions to toggle your preferences.
 poster=poster.png
