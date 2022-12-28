@@ -36,6 +36,7 @@ local function CreateToeTagOnPlayerWithOptions(player)
     -- ---------------------------------------------------- --
     local ToeTagTitle = "";             -- The Item Name
     local ToeTagNote = "";              -- The Details / Read list
+    local ToeTagTraits = "";            -- Player Traits
 
     -- ---------------------------------------------------- --
     -- Populate the Toe Tag Name -------------------------- --
@@ -94,6 +95,27 @@ local function CreateToeTagOnPlayerWithOptions(player)
         end
     end
 
+    -- Record Traits?
+    if ToeTagOptions.options.recordTraits then
+        local ToeTagTraitsGood = {};
+        local ToeTagTraitsBad = {};
+        local traits = player:getCharacterTraits();
+        for i=0, traits:size()-1 do
+            local traitObject = TraitFactory.getTrait(traits:get(i));
+            if traitObject then 
+                if traitObject:getCost() >= 0 then 
+                    table.insert(ToeTagTraitsGood, traitObject:getLabel());
+                else
+                    table.insert(ToeTagTraitsBad, traitObject:getLabel());
+                end
+            end
+        end
+        table.sort(ToeTagTraitsGood);
+        table.sort(ToeTagTraitsBad);
+        ToeTagTraits = getText("IGUI_ToeTag_TraitGood") .. "\n" .. table.concat(ToeTagTraitsGood, ", ") .. "\n\n" .. 
+                       getText("IGUI_ToeTag_TraitBad") .. "\n" .. table.concat(ToeTagTraitsBad, ", ");
+    end
+
     -- ---------------------------------------------------- --
     -- If all options are disabled, just write "Deceased" - --
     -- ---------------------------------------------------- --
@@ -106,6 +128,9 @@ local function CreateToeTagOnPlayerWithOptions(player)
     local item = player:getInventory():AddItem("Base.ToeTag");
     item:setName(ToeTagTitle)
     item:addPage(1, ToeTagNote)
+    if ToeTagTraits ~= "" then
+        item:addPage(2, ToeTagTraits)
+    end
     item:setLockedBy("GrimReaper#" .. getGametimeTimestamp());
 end
 

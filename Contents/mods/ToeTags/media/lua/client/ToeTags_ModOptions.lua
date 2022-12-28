@@ -40,6 +40,11 @@ local ToeTagSettings = {
             name = "IGUI_ToeTag_Options_RecordInfection",
             tooltip = "IGUI_ToeTag_Options_RecordInfection_Tooltip",
             default = true,
+        },
+        recordTraits = {
+            name = "IGUI_ToeTag_Options_RecordTraits",
+            tooltip = "IGUI_ToeTag_Options_RecordTraits_Tooltip",
+            default = false,
         }
     },
     mod_id = "ToeTags",
@@ -62,6 +67,7 @@ else
             recordKillCount = true,
             recordSurvived = true,
             recordInfected = true,
+            recordTraits = false,
         }
     };
 end
