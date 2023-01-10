@@ -1,0 +1,42 @@
+IGUI_TH = {
+    -- Toe Tag Translations
+    IGUI_ToeTag_ItemName = "ป้ายชื่อศพ: %1",
+    IGUI_ToeTag_ItemNameSorted = "[%2] ป้ายชื่อศพ %1",
+    IGUI_ToeTag_Died = "เสียชีวิตเมื่อ: %1",
+    IGUI_ToeTag_Infected = "ติดเชื้อไวรัสซอมบี้",
+    IGUI_ToeTag_NotInfected = "ปลอดเชื้อ",
+    IGUI_ToeTag_TraitGood = "คุณลักษณะด้านบวก:",
+    IGUI_ToeTag_TraitBad = "คุณลักษณะด้านลบ:",
+
+    -- Toe Tag Configuration options (if ModOptions installed)
+    IGUI_ToeTag_Options_NameShort = "ป้ายชื่อศพ",
+    IGUI_ToeTag_Options_NameLong = "ตัวเลือกป้ายชื่อศพ",
+    IGUI_ToeTag_Options_AdvancedTitle = "แสดงจำนวนชั่วโมงที่รอดชีวิตในป้ายชื่อศพ",
+    IGUI_ToeTag_Options_AdvancedTitle_Tooltip = "เพิ่ม [hhhhh.mm] ที่ชื่อไอเท็มเพื่อใช้สำหรับการจัดเรียง<br>เช่น: [00420.69] สมหญิง อาทิตย์น้อย",
+    IGUI_ToeTag_Options_RecordAccount = "แสดงชื่อผู้ใช้",
+    IGUI_ToeTag_Options_RecordAccount_Tooltip = "ชื่อผู้ใช้ในเซิร์ฟเวอร์ผู้เล่นหลายคน (ไม่ใช่ชื่อตัวละคร)",
+    IGUI_ToeTag_Options_RecordProfession = "แสดงอาชีพ",
+    IGUI_ToeTag_Options_RecordProfession_Tooltip = "เช่น: เทรนเนอร์ฟิตเนส",
+    IGUI_ToeTag_Options_RecordDeathDate = "แสดงวันที่เสียชีวิต",
+    IGUI_ToeTag_Options_RecordDeathDate_Tooltip = "เช่น: Sun August 15 10:34 ICT 1993",
+    IGUI_ToeTag_Options_RecordSurvived = "แสดงระยะเวลาที่รอดชีวิต",
+    IGUI_ToeTag_Options_RecordSurvived_Tooltip = "เช่น: 8 เดือน 3 วัน 11 ชั่วโมง",
+    IGUI_ToeTag_Options_RecordFavWeapon = "แสดงอาวุธที่ชื่นชอบ",
+    IGUI_ToeTag_Options_RecordFavWeapon_Tooltip = "อาวุธที่ใช้ในการสังหารซอมบี้มากที่สุด",
+    IGUI_ToeTag_Options_RecordKillCount = "แสดงจำนวนซอมบี้ที่ฆ่า",
+    IGUI_ToeTag_Options_RecordKillCount_Tooltip = "จำนวนซอมบี้ทั้งหมดที่ฆ่า",
+    IGUI_ToeTag_Options_RecordInfection = "แสดงสถานะการติดเชื้อ",
+    IGUI_ToeTag_Options_RecordInfection_Tooltip = "สถานะการติดเชื้อไวรัสซอมบี้ของผู้เล่น",
+    IGUI_ToeTag_Options_RecordTraits = "แสดงคุณลักษณะ",
+    IGUI_ToeTag_Options_RecordTraits_Tooltip = "แสดงคุณลักษณะที่ตัวละครมีเมื่อตาย",
+
+    -- NOTE: Some translations come automatically from the Base Game
+    -- Username: -> IGUI_PlayerStats_Username           (Player, not character's username)
+    -- Profession: -> IGUI_PlayerStats_Profession       (Character Profession title)
+    -- Unknown -> UI_FriendState_Unknown                (If no profession then profession = Unknown)
+    -- Fav. Weapon: -> IGUI_char_Favourite_Weapon       (Character Favorite Weapon title)
+    -- Survived: -> IGUI_char_Survived_For              (Time character surived for title)
+    -- Kills: -> IGUI_char_Zombies_Killed               (Zombies killed title)
+    -- Pacifist -> UI_trait_Pacifist                    (EasterEgg: If No FavWeapon then FavWeapon = Pacifist)
+    -- If Blank Tag -> IGUI_health_Deceased             (If no tag options recorded, just write deceased)
+}
